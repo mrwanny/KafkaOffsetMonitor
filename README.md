@@ -41,7 +41,7 @@ Each runtime instance of KafkaOffsetMonitor can only support a single type of st
 Running It
 ===========
 
-If you do not want to build it manually, just download the [current jar](https://github.com/quantifind/KafkaOffsetMonitor/releases/latest).
+If you do not want to build it manually run ```sbt assembly```, if not just download the [current jar](https://github.com/quantifind/KafkaOffsetMonitor/releases/latest).
 
 This is a small webapp, you can run it locally or on a server, as long as you have access to the ZooKeeper nodes controlling kafka.
 
